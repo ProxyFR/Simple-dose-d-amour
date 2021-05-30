@@ -40,7 +40,7 @@ def search():
     global searchs
     global tweets
     global tweetsAlreadyReplyedTo
-    results = api.GetSearch(raw_query="q=besoin%20d%27amour%20&src=typed_query&&f=live&result_type=recent&count=100")
+    results = api.GetSearch(raw_query="q=besoin%20d%27amour%20&src=typed_query&&f=live&result_type=recent&count=200")
     for search in results:  
         searchs += 1
         if(search.id in tweetsAlreadyReplyedTo):
@@ -63,12 +63,12 @@ def start():
         if(searchs >= limitSearchs):
             print("Limite atteinte des searchs")
             print("Fini, on attend 12H maintenant et on reprend.")
-            time.sleep(20)
+            time.sleep(43200)
             print("C'est reparti!")
         elif(tweets >= limitTweets):
             print("Limite atteinte des tweets")
             print("Fini, on attend 12H maintenant et on reprend.")
-            time.sleep(20)
+            time.sleep(43200)
             print("C'est reparti!")
         print(f"On a donné de l'amour à {str(tweets)} personnes !")
         time.sleep(5)
