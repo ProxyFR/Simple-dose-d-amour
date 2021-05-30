@@ -8,10 +8,10 @@ tweets = 0
 searchs = 0
 tweetsAlreadyReplyedTo = []
 
-api = twitter.Api(consumer_key="mVR4RiKk2t10ikmLRJ5KxaYAN",
-                    consumer_secret="HYNVe4liGqsOujNKAFYnSWJ3TYPA7LbmmTBFCBCn96MmXtN4K5",
-                    access_token_key="1398791214388887552-YZ7gSrmzAPszwBQyoXVnYrevsnTrrP",
-                    access_token_secret="pQjvvW60Mz2wnBYKrEifuGn5aZ4l1H9SQcvAoJuhfE8rV")
+api = twitter.Api(consumer_key="CAJD04wjOOHW9L69yloeEOohd",
+                    consumer_secret="BxgqlyDA9TgNW3fKpuOyqMLSnRyuEgtI7G8yZDrKlISCWoeyix",
+                    access_token_key="1398791214388887552-o7VQiUezXjh4FF3Bh6nI4p4cnVYPk1",
+                    access_token_secret="P8ml8M4paLSqZfEI77Vzsbuw2uKBqLePswTImPoPoDFcd")
 
 doseDamour = ["Pouf!! Voila une petite dose d'amour pour toi, il sufisait de demander",
             "Sache que tu es aimé par quelqu'un quelque part <3 Passes une bonne journée",
