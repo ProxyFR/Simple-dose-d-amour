@@ -1,8 +1,6 @@
 import twitter
 import random
 import time
-import os
-from os import environ
 
 limitTweets = 300
 limitSearchs = 180
@@ -10,10 +8,10 @@ tweets = 0
 searchs = 0
 tweetsAlreadyReplyedTo = []
 
-api = twitter.Api(consumer_key= environ['CONSUMER_KEY'],
-                    consumer_secret= environ['CONSUMER_SECRET'],
-                    access_token_key= environ['ACCESS_TOKEN_KEY'],
-                    access_token_secret= environ['ACCESS_TOKEN_SECRET'])
+api = twitter.Api(consumer_key="mVR4RiKk2t10ikmLRJ5KxaYAN",
+                    consumer_secret="HYNVe4liGqsOujNKAFYnSWJ3TYPA7LbmmTBFCBCn96MmXtN4K5",
+                    access_token_key="1398791214388887552-YZ7gSrmzAPszwBQyoXVnYrevsnTrrP",
+                    access_token_secret="pQjvvW60Mz2wnBYKrEifuGn5aZ4l1H9SQcvAoJuhfE8rV")
 
 doseDamour = ["Pouf!! Voila une petite dose d'amour pour toi, il sufisait de demander",
             "Sache que tu es aimé par quelqu'un quelque part <3 Passes une bonne journée",
