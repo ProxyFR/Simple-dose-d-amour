@@ -40,7 +40,7 @@ def search():
     global searchs
     global tweets
     global tweetsAlreadyReplyedTo
-    results = api.GetSearch(raw_query="q=besoin%20d%27amour%20&src=typed_query&&f=live&result_type=recent&count=200")
+    results = api.GetSearch(raw_query="q=besoin%20d%27amour%20&src=typed_query&&f=live&result_type=recent&count=100")
     for search in results:  
         searchs += 1
         if(search.id in tweetsAlreadyReplyedTo):
