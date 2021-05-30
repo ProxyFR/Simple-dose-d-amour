@@ -2,7 +2,7 @@ import twitter
 import random
 import time
 import os
-for os import environ
+from os import environ
 
 limitTweets = 300
 limitSearchs = 180
